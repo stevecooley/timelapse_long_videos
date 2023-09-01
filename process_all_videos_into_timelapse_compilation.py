@@ -57,7 +57,11 @@ if __name__ == "__main__":
             input_path = os.path.join(directory, filename)
             output_path = "time_lapsed_" + filename
             output_videos.append(output_path)
-
+            # hey you can change the '150" in the next line to change how many frames it should drop
+            # before it picks up a frame to include. So for instance, 
+            # if you set it to 1, it will drop 1 frame, and pick up one. (faster)
+            # if you set it to 10, it will drop 10 frames, and pick up one. (much faster)
+            # if you set it to 150, it will drop 150 frames and pick up one. (super turbo faster)
             time_lapse_video(input_path, output_path, 150)
 
     combine_videos(output_videos, "combined_time_lapse.mp4")
