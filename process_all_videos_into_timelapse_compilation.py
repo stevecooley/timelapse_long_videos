@@ -61,4 +61,3 @@ if __name__ == "__main__":
             time_lapse_video(input_path, output_path, 150)
 
     combine_videos(output_videos, "combined_time_lapse.mp4")
-how 
