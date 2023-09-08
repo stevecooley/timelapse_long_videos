@@ -1,16 +1,15 @@
-**Preamble**
-
+## Preamble
 a sheep herder and a visitor are standing at a gate while the sheep are quickly passing through.
 the visitor: "how many sheep are there?"
 sheep herder: "129"
 visitor: "that's amazing, how can you figure that out so fast?"
 sheep herder: "it's easy; you count all the legs, and divide by 4."
 
-**timelapse_long_videos**
+## About timelapse_long_videos
 script to use OpenCV in python to take a folder of long videos, and shorten them to drop frames so the video plays faster... 
 then combines them all into one video.
 
-**requirements**
+## Requirements
 you need to install OpenCV first.. I used "pip3 install opencv-python"
 
 ## How to configure:
